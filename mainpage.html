@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PROJECT</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -15,9 +16,9 @@
 
     <div class="page1">
         <div class="container">
-            <img src="images/icon_luxury.png" alt="Luxury Restaurant">
+            <img class="res" src="images/icon_luxury.png" alt="Luxury Restaurant">
 
-            <nav>
+            <nav class="main">
                 <a href="/home/">HOME</a>
                 <a href="/menu/">MENU</a>
                 <a href="/reservation/">RESERVATION</a>
@@ -25,18 +26,19 @@
                 <a href="/blog/">BLOG</a>
                 <a href="/pages/">PAGES</a>
                 <a href="/contact/">CONTACT</a>
+                <img class="cart" src="images/icon_cart@2x.png" alt="cart">
             </nav>
 
             <button class="book"> <img src="images/icon_plate.png" alt="plate">
                 BOOK YOUR TABLE
-
             </button>
-
         </div>
 
-        <img src="images/icon_phone.png" alt="phone">
-        <h1>CALL US AND BOOK YOUR TABLE</h1>
-        <h3>1-008 005 006</h3>
+        <div class="call">
+            <img class="phone" src="images/icon_phone.png" alt="phone">
+            <h5>CALL US AND BOOK YOUR TABLE</h5>
+            <h6>1-008 005 006</h6>
+        </div>
 
     </div>
 
@@ -48,7 +50,7 @@
 
                 <h1>Food Menu</h1>
 
-                <button class="book">
+                <button class="explore">
                     EXPLORE FOOD MENU
                 </button>
 
@@ -67,7 +69,28 @@
     <!-- PAGE 3 RESERVE -->
 
     <div class="page3">
+        <div class="resdiv">
+            <span class="rese"> Reserve your table <br> </span>
 
+            <form class="reserve" action="">
+
+                <input type="text" class="in" name="name" value="?  Name">
+
+                <input type="email" class="in" name="email" value="?  Email address"> <br>
+
+                <input type="time" class="in" name="time" value="?  Time">
+
+                <input type="date" class="in" name="date" value="?  Date"> <br>
+
+                <input type="text" class="in" name="guests" value="?  Guests">
+
+                <input type="tel" class="in" name="phone" value="?  Phone"> <br>
+
+                <input class="make" type="submit" value="MAKE RESERVATION">
+
+
+            </form>
+        </div>
     </div>
 
 
@@ -75,12 +98,28 @@
 
     <div class="page4">
 
+        <div class="happy">Happy Clients</div>
+
+        <div class="opin">
+
+            <h4>Best atmosphere and food</h4>
+            <p class="opinion">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                their default model text, and a search for 'lorem ipsum' will uncover many web
+                sites still in their infancy. Various versions have evolved over the years, sometimes by accident.
+            </p>
+
+        </div>
+
+        <hr>
+
     </div>
 
 
     <!-- PAGE 5 GALLERY -->
 
     <div class="page5">
+
 
     </div>
 
@@ -105,10 +144,6 @@
                 210 X 210
             </div>
         </div>
-
-
-
-
     </div>
 
 
@@ -133,7 +168,7 @@
             <div class="sector2">
                 <p class="white_color">News letter</p> </br>
                 Enter your email address and subscribe daily newsletter
-                <form action="newsletter">
+                <form action="">
 
                     <input type="email" class="email" name="Email Address" value="Email Address">
                     <input class="sub" type="submit" value="SUBSCRIBE">

@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -18,13 +22,19 @@
 }
 
 .page1 nav {
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-left: -100px;
+    margin-top: 40px;
+    width: 650px;
 }
+
+a {
+    margin-right: 20px;
+}
+
 
 .book {
     /* Layout Properties */
-    top: 25px;
-    left: 1373px;
     width: 193px;
     height: 41px;
     /* UI Properties */
@@ -32,31 +42,40 @@
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     opacity: 1;
+    right: 300px;
+    position: absolute;
+    margin-top: 25px;
 }
 
-h1 {
-    top: 561px;
-    left: 877px;
-    width: 226px;
-    height: 14px;
-    text-align: left;
-    letter-spacing: 0px;
+.res {
+    margin-top: 20px;
+}
+
+.cart {
+    width: 21px;
+    height: 17px;
+}
+
+.call {
+    margin-top: 400px;
+    text-align: center;
+    margin-left: 750px;
+    width: 500px;
+}
+
+h5 {
     color: #FEA100;
     opacity: 1;
+    font-size: 14px;
 }
 
-h3 {
-    /* Layout Properties */
-    top: 581px;
-    left: 859px;
-    width: 232px;
-    height: 36px;
-    /* UI Properties */
-    text-align: left;
-    letter-spacing: 0px;
+h6 {
+    margin-top: -10px;
     color: #FFFFFF;
     opacity: 1;
+    font-size: 36px;
 }
+
 
 /* PAGE 2 CSS */
 
@@ -68,6 +87,11 @@ h3 {
     background-color: white;
 }
 
+.explore {
+    background: #FEA100 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
 
 /* PAGE 3 CSS */
 
@@ -82,13 +106,59 @@ h3 {
     opacity: 1;
 }
 
+.resdiv {
+    text-align: center;
+    padding-top: 115px;
+}
+
+.in {
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+.rese {
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.make {
+    position: absolute;
+    width: 149px;
+    height: 51px;
+    background: #FEA100 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border-width: 0;
+    margin-left: -320px;
+    margin-top: 20px;
+}
+
 /* PAGE 4 CSS */
 
 .page4 {
     width: 1970px;
     height: 558px;
     background-color: white;
+}
 
+.happy {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+h4 {
+    margin-top: 50px;
+font-size: 22px;
+}
+
+.opin {
+    margin-top: 60px;
+    width: 638px;
+    margin-left: 35%;
+    font-size: 15px;
+    color: #363D43;
 }
 
 /* PAGE 5 CSS */
@@ -103,6 +173,7 @@ h3 {
     background: #EDF1F3 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
 
 /* PAGE 6 CSS */
 
@@ -180,11 +251,12 @@ ul {
 
 li a {
     display: block;
+    color: #ADB2B7;
 }
 
 a {
     text-decoration: none;
-    color: #ADB2B7;
+    color: #FFFFFF;
 }
 
 footer .app {
