@@ -57,9 +57,9 @@ a {
 }
 
 .call {
-    margin-top: 400px;
+    margin-top: 120px;
     text-align: center;
-    margin-left: 750px;
+    margin-left: 700px;
     width: 500px;
 }
 
@@ -76,6 +76,29 @@ h6 {
     font-size: 36px;
 }
 
+.im1970x750 {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-left: -3%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.teast {
+    text-align: center;
+    margin-left: -3%;
+    color: #FFFFFF;
+}
+
+.text1 {
+    font-size: 62px;
+    margin-top: 40px;
+}
+
+.text2 {
+    font-size: 42px;
+    margin-top: -65px;
+}
 
 /* PAGE 2 CSS */
 
@@ -124,7 +147,7 @@ h6 {
 
 .make {
     position: absolute;
-    width: 149px;
+    width: 200px;
     height: 51px;
     background: #FEA100 0% 0% no-repeat padding-box;
     border-radius: 4px;
@@ -132,6 +155,65 @@ h6 {
     border-width: 0;
     margin-left: -320px;
     margin-top: 20px;
+}
+
+.im1970x518 {
+    margin-top: -30px;
+    margin-left: 1170px;
+    color: #FFFFFF;
+    font-size: 22px;
+    position: absolute;
+}
+
+.you {
+    position: absolute;
+    margin-left:900px;
+    font-size: 14px;
+    line-height: 0px;
+    margin-top: 26px;
+}
+
+.text11{
+    color: #FFFFFF;
+}
+
+.text12 {
+    color: #FE4C8D;
+}
+
+.telnum {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 320px;
+    margin-top: 33px;
+}
+
+.im241x234 {
+    display: flex;
+    width: 241px;
+    height: 234px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #7D8587;
+    margin-right: 300px;
+    margin-left: 1350px;
+    margin-top: -95px;
+}
+
+.im293x293 {
+    position: absolute;
+    display: flex;
+    width: 293px;
+    height: 293px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #7D8587;
+    margin-left: 320px;
+    margin-top: -160px;
 }
 
 /* PAGE 4 CSS */
@@ -150,7 +232,7 @@ h6 {
 
 h4 {
     margin-top: 50px;
-font-size: 22px;
+    font-size: 22px;
 }
 
 .opin {
@@ -174,6 +256,12 @@ font-size: 22px;
     opacity: 1;
 }
 
+.gallery {
+    text-align: center;
+    font-size: 35px ;
+    padding-top: 100px;
+}
+
 
 /* PAGE 6 CSS */
 
@@ -186,12 +274,6 @@ font-size: 22px;
 }
 
 .image210x210 {
-    /* background-color: #7D8587;
-    text-align: center;
-    height: 210px;
-    width: 210px;
-    color: #FFFFFF; */
-
     display: flex;
     width: 210px;
     height: 210px;
