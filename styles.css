@@ -116,6 +116,24 @@ h6 {
     border-radius: 4px;
 }
 
+.text31 {
+    font-size: 16px;
+}
+
+.text32 {
+    color: #5C6369;
+    font-size: 14px;
+}
+
+tr {
+    line-height: 30px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
 /* PAGE 3 CSS */
 
 .page3 {
@@ -167,13 +185,13 @@ h6 {
 
 .you {
     position: absolute;
-    margin-left:900px;
+    margin-left: 900px;
     font-size: 14px;
     line-height: 0px;
     margin-top: 26px;
 }
 
-.text11{
+.text11 {
     color: #FFFFFF;
 }
 
@@ -233,14 +251,44 @@ h6 {
 h4 {
     margin-top: 50px;
     font-size: 22px;
+    color: #14141D;
 }
 
 .opin {
-    margin-top: 60px;
+    margin-top: -340px;
     width: 638px;
     margin-left: 35%;
     font-size: 15px;
     color: #363D43;
+    line-height: 30px;
+}
+
+.im269x265 {
+    display: flex;
+    width: 269px;
+    height: 295px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #7D8587;
+    margin-right: 300px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.opinion {
+    margin-bottom: 80px;
+}
+
+.star {
+    color: #14141D;
+    font-size: 16px;
+}
+
+.yellow {
+    letter-spacing: 2.79px;
+color: #FFC001;
 }
 
 /* PAGE 5 CSS */
@@ -258,7 +306,7 @@ h4 {
 
 .gallery {
     text-align: center;
-    font-size: 35px ;
+    font-size: 35px;
     padding-top: 100px;
 }
 
