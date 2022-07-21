@@ -114,6 +114,8 @@ h6 {
     background: #FEA100 0% 0% no-repeat padding-box;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
+    width: 199px;
+    height: 51px;
 }
 
 .text31 {
@@ -126,12 +128,84 @@ h6 {
 }
 
 tr {
-    line-height: 30px;
+    line-height: 36px;
 }
 
 table {
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
+}
+
+.price {
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.today {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.menu {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 531px;
+    height: 298px;
+}
+
+.shadow {
+    position: static;
+    margin-left: 200px;
+    background: transparent url('images/shadow.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5
+}
+
+.im320x210 {
+    position: relative;
+    display: flex;
+    width: 320px;
+    height: 210px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #7D8587 0% 0% no-repeat padding-box;
+    margin-top: -350px;
+}
+
+.im320x172 {
+    position: relative;
+    display: flex;
+    width: 320px;
+    height: 172px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #7D8587 0% 0% no-repeat padding-box;
+    margin-top: -200px;
+}
+
+.pizza {
+    position: relative;
+    width: 320px;
+    height: 335px;
+    box-shadow: 0px 36px 51px #0000001A;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.chicken {
+    width: 320px;
+    height: 295px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 36px 51px #0000001A;
+    margin-left: 250px;
+    margin-top: -320px;
 }
 
 /* PAGE 3 CSS */
@@ -288,7 +362,7 @@ h4 {
 
 .yellow {
     letter-spacing: 2.79px;
-color: #FFC001;
+    color: #FFC001;
 }
 
 /* PAGE 5 CSS */
